@@ -96,13 +96,11 @@
             align-items: center;
         }
 
-        .logo {
+        #log {
             font-size: 1.5rem;
             font-weight: bold;
-            background: var(--gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: float 3s ease-in-out infinite;
+            color: #764ba2;
+         
         }
 
         @keyframes float {
