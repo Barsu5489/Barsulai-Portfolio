@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Emmanuel Barsulai | Full Stack Developer</title>
-    <meta name="description" content="Full Stack Developer specializing in MERN stack, cloud architecture, and scalable web applications. Based in Kenya">
-    <meta name="keywords" content="full stack developer, Go, React, Node.js, Rails, web developer, frontend, backend, ui/ux, Kisumu Kenya">
+    <title>Emmanuel Barsulai | Full Stack Developer</title>
+    <meta name="description"
+        content="Full Stack Developer specializing in MERN stack, cloud architecture, and scalable web applications. Based in Kenya">
+    <meta name="keywords"
+        content="full stack developer, Go, React, Node.js, Rails, web developer, frontend, backend, ui/ux, Kisumu Kenya">
     <meta property="og:title" content="Emmanuel Barsulai | Full Stack Developer">
-    <meta property="og:description" content="Full Stack Developer with 4 years of experience building scalable web applications">
+    <meta property="og:description"
+        content="Full Stack Developer with 4 years of experience building scalable web applications">
     <meta property="og:type" content="website">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-       <!-- Loading Screen -->
+    <!-- Loading Screen -->
     <div class="loader">
         <div class="loader-content">
             <div class="logo-loader"></div>
@@ -21,10 +26,10 @@
         </div>
     </div>
 
-        <!-- Navigation -->
+    <!-- Navigation -->
     <nav id="navbar">
         <div class="nav-container">
-            <div  class="logo"> <a href="#home"> &lt;/Barsulai&gt;</a></div>
+            <div class="logo"> <a href="#home"> &lt;/Barsulai&gt;</a></div>
             <div class="nav-links" id="navLinks">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
@@ -35,7 +40,7 @@
                 <button class="theme-toggle" id="themeToggle">
                     <i class="fas fa-moon"></i>
                 </button>
-            </div> 
+            </div>
             <button class="mobile-menu-toggle" id="mobileMenu">
                 <i class="fas fa-bars"></i>
             </button>
@@ -52,7 +57,7 @@
                 <span id="typingText"></span><span class="typing-cursor">|</span>
             </div>
             <p class="hero-description">
-                Crafting scalable web applications with 4 years of experience in Full-Stack development. 
+                Crafting scalable web applications with 4 years of experience in Full-Stack development.
                 Based in Kisumu Kenya, building the future one line of code at a time.
             </p>
             <div class="cta-buttons">
@@ -68,20 +73,20 @@
         <div class="about-content">
             <div class="about-text">
                 <p>
-                    I'm a passionate Full Stack Developer with 4 years of experience building scalable, 
-                    user-centric web applications. My journey in tech started with a curiosity about how 
-                    things work on the internet, and has evolved into a career focused on creating 
+                    I'm a passionate Full Stack Developer with 4 years of experience building scalable,
+                    user-centric web applications. My journey in tech started with a curiosity about how
+                    things work on the internet, and has evolved into a career focused on creating
                     impactful digital solutions.
                 </p>
                 <br>
                 <p>
-                    Currently based in Kisumu Kenya and open to remote opportunities, I specialize in 
-                    the Full-stack while constantly exploring new technologies. I believe in writing 
+                    Currently based in Kisumu Kenya and open to remote opportunities, I specialize in
+                    the Full-stack while constantly exploring new technologies. I believe in writing
                     clean, maintainable code and creating intuitive user experiences that make a difference.
                 </p>
                 <br>
                 <p>
-                    When I'm not coding, you'll find me contributing to open-source projects, writing 
+                    When I'm not coding, you'll find me contributing to open-source projects, writing
                     technical articles, or exploring the latest in cloud architecture and DevOps practices.
                 </p>
             </div>
@@ -189,43 +194,79 @@
             </div>
         </div>
     </section>
-       <!-- Projects Section -->
+        <!-- Experience Section -->
+    <section class="section fade-in" id="experience">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2023 - Present</div>
+                <h3 class="timeline-title"> Apprentice Full Stack Developer</h3>
+                <p class="timeline-company">Zone01 Kisumu</p>
+                <ul class="timeline-description">
+                    <li>Deployed live web applications currently used by active users</li>
+                    <li>Reduced load time by 60% through code optimization and database query improvements</li>
+                    <li>Built responsive applications with 98% mobile compatibility across all devices</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2022 - 2023</div>
+                <h3 class="timeline-title">Full Stack Developer</h3>
+                <p class="timeline-company">Online honey Shop</p>
+                <ul class="timeline-description">
+                    <li>Developed React-based storefront with Node.js/Express backend and MySQL database</li>
+                    <li>Implemented user authentication, product search, and filtering features</li>
+                    <li>Created responsive design achieving 95% mobile user satisfaction</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2021 - 2022</div>
+                <h3 class="timeline-title">IT support & Junior Developer</h3>
+                <p class="timeline-company">Daystar University</p>
+                <ul class="timeline-description">
+                    <li>Provided IT support while gaining hands-on development experience</li>
+                    <li>Resolved technical issues and maintained campus IT systems</li>
+                    <li>Collaborated on university portal integration: configured modules, tested features, debugged
+                        issues</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
     <section class="section fade-in" id="projects">
         <h2 class="section-title">Featured Projects</h2>
         <div class="projects-grid">
             <div class="project-card">
                 <div class="project-image"></div>
                 <div class="project-content">
-                    <h3 class="project-title">ShopSmart E-Commerce Platform</h3>
+                    <h3 class="project-title">HoneyShop E-Commerce Platform</h3>
                     <p class="project-description">
-                        Full-featured e-commerce platform with real-time inventory, payment processing, 
-                        and admin dashboard. Serving 50k+ active users with AI-powered recommendations.
+                        Full-featured e-commerce platform with real-time inventory, payment processing,
+                        and admin dashboard. Serving 50plus  active users with AI-powered recommendations.
                     </p>
                     <div class="project-tech">
-                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">React.js</span>
                         <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">PostgreSQL</span>
                         <span class="tech-tag">Stripe API</span>
-                        <span class="tech-tag">Redis</span>
                         <span class="tech-tag">Docker</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/myusername/shopsmart" class="project-link">
+                        <a href="https://github.com/Bee-Store/Server" class="project-link">
                             <i class="fab fa-github"></i> Code
                         </a>
-                        <a href="https://shopsmart-demo.herokuapp.com" class="project-link">
+                        <a href="https://beekissed.vercel.app" class="project-link">
                             <i class="fas fa-external-link-alt"></i> Live Demo
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div class="project-card">
+            <!-- <div class="project-card">
                 <div class="project-image"></div>
                 <div class="project-content">
                     <h3 class="project-title">TeamFlow Management System</h3>
                     <p class="project-description">
-                        Collaborative project management tool with real-time updates, drag-and-drop Kanban boards, 
+                        Collaborative project management tool with real-time updates, drag-and-drop Kanban boards,
                         video calling, and 15+ team integrations.
                     </p>
                     <div class="project-tech">
@@ -245,26 +286,26 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="project-card">
                 <div class="project-image"></div>
                 <div class="project-content">
-                    <h3 class="project-title">Social Media Analytics Dashboard</h3>
+                    <h3 class="project-title">Social Media Realtime platform</h3>
                     <p class="project-description">
-                        Analytics platform aggregating data from multiple social media APIs with ML-powered insights, 
+                        Analytics platform aggregating data from multiple social media APIs with ML-powered insights,
                         supporting 10M+ data points daily.
                     </p>
                     <div class="project-tech">
-                        <span class="tech-tag">Python/Django</span>
-                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Go</span>
+                        <span class="tech-tag">Next.js</span>
                         <span class="tech-tag">PostgreSQL</span>
-                        <span class="tech-tag">TensorFlow</span>
-                        <span class="tech-tag">Chart.js</span>
-                        <span class="tech-tag">Celery</span>
+                        <span class="tech-tag">Websocket</span>
+                        <span class="tech-tag">ui/ux</span>
+                        <span class="tech-tag">Tailwind</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/myusername/social-analytics" class="project-link">
+                        <a href="https://github.com/Barsu5489/social_network" class="project-link">
                             <i class="fab fa-github"></i> Code
                         </a>
                     </div>
@@ -274,31 +315,30 @@
             <div class="project-card">
                 <div class="project-image"></div>
                 <div class="project-content">
-                    <h3 class="project-title">HomeFinder Real Estate</h3>
+                    <h3 class="project-title">Placebook</h3>
                     <p class="project-description">
-                        Property listing platform with 360° virtual tours, AI-powered price predictions, 
-                        and integrated mortgage calculator.
+                     Enables users to create and manage locations with custom names and geographic coordinates.
                     </p>
                     <div class="project-tech">
-                        <span class="tech-tag">MERN Stack</span>
-                        <span class="tech-tag">AWS S3</span>
+                        <span class="tech-tag">Ruby on Rails</span>
+                        <span class="tech-tag">Inertia.js</span>
                         <span class="tech-tag">Google Maps API</span>
-                        <span class="tech-tag">Three.js</span>
+                        <span class="tech-tag">Leaflet.js</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/myusername/homefinder" class="project-link">
+                        <a href="https://github.com/Barsu5489/Placebook" class="project-link">
                             <i class="fab fa-github"></i> Code
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div class="project-card">
+            <!-- <div class="project-card">
                 <div class="project-image"></div>
                 <div class="project-content">
                     <h3 class="project-title">Healthcare Appointment System</h3>
                     <p class="project-description">
-                        Medical appointment booking system with telemedicine capabilities, video consultations, 
+                        Medical appointment booking system with telemedicine capabilities, video consultations,
                         and HIPAA compliant infrastructure.
                     </p>
                     <div class="project-tech">
@@ -315,70 +355,36 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
-        <!-- Experience Section -->
-    <section class="section fade-in" id="experience">
-        <h2 class="section-title">Work Experience</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-date">2022 - Present</div>
-                <h3 class="timeline-title">Senior Full Stack Developer</h3>
-                <p class="timeline-company">TechCorp Solutions</p>
-                <ul class="timeline-description">
-                    <li>Led development of microservices architecture reducing system latency by 40%</li>
-                    <li>Mentored team of 5 junior developers and conducted code reviews</li>
-                    <li>Implemented CI/CD pipeline reducing deployment time from 2 hours to 15 minutes</li>
-                </ul>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">2020 - 2022</div>
-                <h3 class="timeline-title">Full Stack Developer</h3>
-                <p class="timeline-company">Digital Innovations Inc</p>
-                <ul class="timeline-description">
-                    <li>Built RESTful APIs serving 1M+ requests daily with 99.9% uptime</li>
-                    <li>Optimized database queries resulting in 60% performance improvement</li>
-                    <li>Developed responsive web applications used by 100k+ active users</li>
-                </ul>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">2019 - 2020</div>
-                <h3 class="timeline-title">Junior Developer</h3>
-                <p class="timeline-company">StartupXYZ</p>
-                <ul class="timeline-description">
-                    <li>Developed features for company's main product using React and Node.js</li>
-                    <li>Participated in agile development process and daily standups</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-      <!-- Testimonials Section -->
+
+    <!-- Testimonials Section -->
     <section class="section fade-in">
         <h2 class="section-title">Testimonials</h2>
         <div class="testimonials-container">
             <div class="testimonial active">
                 <p class="testimonial-text">
-                    "John is an exceptional developer who consistently delivers high-quality code. His ability 
-                    to understand complex requirements and translate them into elegant solutions is remarkable. 
+                    "Emmanuel is an exceptional developer who consistently delivers high-quality code. His ability
+                    to understand complex requirements and translate them into elegant solutions is remarkable.
                     A true asset to any development team."
                 </p>
-                <p class="testimonial-author">- Sarah Johnson, CTO at TechCorp Solutions</p>
+                <p class="testimonial-author">- Ian Kamau, Fullstack Developer at Giger Cypher Systems</p>
             </div>
             <div class="testimonial">
                 <p class="testimonial-text">
-                    "Working with John was a pleasure. He brought innovative ideas to our project and his 
-                    expertise in cloud architecture helped us scale our application to handle millions of users. 
+                    "Working with Emmanuel was a pleasure. He brought innovative ideas to our project and his
+                    expertise in cloud architecture helped us scale our application to handle millions of users.
                     Highly recommended!"
                 </p>
-                <p class="testimonial-author">- Mike Chen, Product Manager at Digital Innovations</p>
+                <p class="testimonial-author">- Kennedy Icika, CEO at Beekised honey</p>
             </div>
             <div class="testimonial">
                 <p class="testimonial-text">
-                    "John's technical skills are matched only by his excellent communication and teamwork. He 
-                    mentored our junior developers and significantly improved our development processes."
+                    "Emmanuel's technical skills are matched only by his excellent communication and teamwork. He
+                    significantly improved our development processes."
                 </p>
-                <p class="testimonial-author">- Emily Rodriguez, Team Lead at StartupXYZ</p>
+                <p class="testimonial-author">- Solomon Mburu, IT manager at Daystar University</p>
             </div>
         </div>
         <div class="testimonial-dots">
@@ -396,32 +402,32 @@
                 <div class="blog-date">December 15, 2024</div>
                 <h3 class="blog-title">Optimizing React Performance with Memoization</h3>
                 <p class="blog-excerpt">
-                    Deep dive into React.memo, useMemo, and useCallback hooks to prevent unnecessary 
+                    Deep dive into React.memo, useMemo, and useCallback hooks to prevent unnecessary
                     re-renders and improve application performance...
                 </p>
-                <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                <!-- <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a> -->
             </article>
             <article class="blog-card">
                 <div class="blog-date">November 28, 2024</div>
                 <h3 class="blog-title">Building Scalable Microservices with Node.js</h3>
                 <p class="blog-excerpt">
-                    Learn how to architect and implement microservices using Node.js, Docker, and 
+                    Learn how to architect and implement microservices using Node.js, Docker, and
                     Kubernetes for enterprise-level applications...
                 </p>
-                <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                <!-- <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a> -->
             </article>
             <article class="blog-card">
                 <div class="blog-date">October 10, 2024</div>
                 <h3 class="blog-title">AWS Lambda Functions: A Complete Guide</h3>
                 <p class="blog-excerpt">
-                    Everything you need to know about serverless computing with AWS Lambda, from 
+                    Everything you need to know about serverless computing with AWS Lambda, from
                     basic setup to advanced optimization techniques...
                 </p>
-                <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                <!-- <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a> -->
             </article>
         </div>
     </section>
-      <!-- GitHub Contributions -->
+    <!-- GitHub Contributions -->
     <section class="section fade-in">
         <div class="github-graph">
             <h3 class="github-title">GitHub Contributions</h3>
@@ -429,7 +435,7 @@
         </div>
     </section>
 
-  
+
     <!-- Contact Section -->
     <section class="section fade-in" id="contact">
         <h2 class="section-title">Get In Touch</h2>
@@ -437,7 +443,7 @@
             <div class="contact-info">
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    <span>ebarsulai@gmail.com.com</span>
+                    <span>ebarsulai@gmail.com</span>
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-phone"></i>
@@ -484,5 +490,5 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script src="./index.js"></script>
-</html>
 
+</html>
