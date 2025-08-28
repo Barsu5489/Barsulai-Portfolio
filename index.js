@@ -223,6 +223,7 @@ terminalForm.addEventListener('submit', (e) => {
             // Success feedback
             submitBtn.textContent = '✓ Message Sent!';
             submitBtn.style.background = '#00ff00';
+            
      
 
             // Reset form after 2 seconds
